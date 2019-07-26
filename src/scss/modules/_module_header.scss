@@ -1,0 +1,18 @@
+// header style
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.example-class {
+  font-family: LatoWeb, sans-serif;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  background-color: green;
+  border: 3px solid red;
+  &::before {
+    content: 'before';
+  }
+}
